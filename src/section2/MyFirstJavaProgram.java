@@ -9,7 +9,7 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 	
-		
+		System.out.println("hello world");
 		
 	}
 }
