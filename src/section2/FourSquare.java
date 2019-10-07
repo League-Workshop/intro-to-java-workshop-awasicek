@@ -28,18 +28,19 @@ public class FourSquare {
 
 	
 	private void drawSquare() {
-		//JOptionPane.showMessageDialog(null, "yay! you called the drawSquare() method!");
+		// JOptionPane.showMessageDialog(null, "yay! you called the drawSquare() method!");
 		
 		/* 3. Fill in the code to draw a square inside the method below. */
-		
-		// 7. Set the pen color to random
-		rob.setRandomPenColor();
-		
-		// 8. Turn the robot 90 degrees to the right
 		for(int i = 0; i < 4; i++) {
 			rob.move(150);
 			rob.turn(90);
 		}
+		
+		// 7. Set the pen color to random
+		rob.setRandomPenColor();
+		
+		// 8. Turn the robot 90 degrees to the right		
+		rob.turn(90);
 		
 	}
 
